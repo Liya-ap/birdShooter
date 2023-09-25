@@ -12,7 +12,7 @@ class Player
     return this.HP;
   }
   
-  void looseHP()
+  void loseHP()
   {
     this.HP--;
   }

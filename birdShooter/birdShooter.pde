@@ -115,7 +115,7 @@ void mousePressed()
     //if a bird is not hit when mouse is pressed then loose hp
     if (!isHit)
     {
-      player.looseHP();
+      player.loseHP();
       totalHP.remove(0);
     }
   }
